@@ -70,7 +70,7 @@ fun CategoryList(data: List<Product>, onProductClick: (String) -> Unit) {
 
     LazyColumn(
         modifier = Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally,
-        contentPadding = PaddingValues(bottom = 30.dp)
+        contentPadding = PaddingValues(bottom = 56.dp)
     ) {
         items(data.size) {
 

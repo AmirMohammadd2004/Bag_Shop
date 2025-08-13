@@ -17,6 +17,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -171,7 +173,7 @@ fun PurchaseAll(
             Surface(
                 modifier = Modifier.padding(4.dp)
             ) {
-                Text("Total $totalPrice Tomans", fontSize = 15.sp, color = Brown)
+                Text("Total $totalPrice Tomans", fontSize = 13.sp, color = Brown )
             }
         }
     }
