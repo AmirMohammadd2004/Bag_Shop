@@ -33,4 +33,36 @@ BagShop یک اپلیکیشن فروشگاه آنلاین برای خرید کی
 ---
 
 ## 🏗️ ساختار پروژه
+com.amir.bagshop
+│
+├─ model
+│ ├─ data // دیتا مدل‌ها (Product, UserCartInfo, SubmitOrder, ...)
+│ ├─ net // ApiService و Retrofit setup
+│ └─ repository // Repositories (Product, User, Cart, Comments)
+│
+├─ ui
+│ └─ features
+│ ├─ Main
+│ ├─ Sign_In
+│ ├─ Sign_Up
+│ ├─ Cart
+│ ├─ Product
+│ ├─ Category
+│ └─ Profile
+│
+└─ di // Koin Modules
+
+🌐 تنظیمات سرور
+
+BASE_URL در ApiService باید به آدرس سرور REST API اشاره کند.
+
+Endpoint ها:
+
+/signUp, /signIn → کاربران
+
+/getProducts, /getSliderPics → محصولات و تبلیغات
+
+/addToCart, /removeFromCart, /getUserCart → سبد خرید
+
+/submitOrder, /checkout → پرداخت و سفارش
 
