@@ -1,50 +1,66 @@
 # BagShop Android App 👜
 
-![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-orange?style=flat-square)
-![AGP](https://img.shields.io/badge/AGP-8.9.2-blue?style=flat-square)
-![Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/username/BagShop?style=flat-square)
-
-BagShop یک اپلیکیشن فروشگاه آنلاین برای خرید کیف و محصولات مشابه است، با امکانات سبد خرید، ثبت سفارش، پرداخت، نظردهی و مدیریت کاربران.
+BagShop is an online shopping application for bags and related products, offering features like cart management, order submission, online payment, user comments, and profile management.
 
 ---
 
-## 📌 ویژگی‌ها
+## 📌 Features
 
-- مرور و جستجوی محصولات
-- اضافه و حذف محصول از سبد خرید
-- ثبت سفارش و پرداخت آنلاین
-- مدیریت پروفایل کاربری
-- ارسال و مشاهده نظرات کاربران
-- نمایش تبلیغات و بنرهای محصولات
-
----
-
-## 🛠 تکنولوژی‌ها و نسخه‌ها
-
-| کتابخانه / ابزار | نسخه |
-|-----------------|------|
-| Kotlin | 2.2.0 |
-| Android Gradle Plugin | 8.9.2 |
-| Core KTX | 1.16.0 |
-| Lifecycle Runtime KTX | 2.9.2 |
-| Activity Compose | 1.10.1 |
-| Compose BOM | 2025.07.00 |
-| Navigation Compose | 2.4.2 |
-| Coil Compose | 2.6.0 |
-| Coroutines Core & Android | 1.10.2 |
-| Retrofit & Gson Converter | 2.11.0 |
-| Room Runtime & Compiler | 2.7.2 |
-| Parse SDK | 4.3.0 |
-| Cokoin | 1.0.0 |
-| Accompanist System UI Controller | 0.34.0 |
-| Lottie Compose | 4.0.0 |
-| JUnit | 4.13.2 |
-| Espresso | 3.6.1 |
+- Browse and search products
+- Add or remove products from the cart
+- Submit orders and online payments
+- User profile management
+- Submit and view user comments
+- Display ads and product banners
 
 ---
 
-## 🏗️ معماری پروژه
+## 🛠 Technologies
 
-پروژه بر اساس **MVVM** و **Clean Architecture سبک اندروید** پیاده‌سازی شده است:
+- **Kotlin 2.2.0** with **Jetpack Compose**
+- **Android Gradle Plugin 8.9.2**
+- **MVVM Architecture** (ViewModel, Repository)
+- **Room** for local database
+- **Retrofit & Gson Converter** for networking
+- **Parse SDK** for backend integration
+- **Coil** for image loading
+- **Lottie Compose** for animations
+- **Cokoin** for dependency injection
+- **Accompanist System UI Controller**
+- **JUnit & Espresso** for testing
 
+---
+
+## 🏗 Architecture
+
+- **UI:** Jetpack Compose
+- **ViewModel:** Manages state and interacts with repositories
+- **Repository:** Handles data from network and local database
+- **ApiService:** Retrofit-based network layer
+- **Room:** Local caching and persistent storage
+- **Cokoin:** Dependency injection
+
+---
+
+## 📸 Screenshots
+
+![Home Screen](assets/images/home.png)  
+![Product Screen](assets/images/product.png)  
+![Cart Screen](assets/images/cart.png)  
+![Profile Screen](assets/images/profile.png)  
+
+---
+
+## 🎬 Demo
+
+![App Demo](assets/images/demo.gif)  
+
+> Tip: Use a short 5–10 second GIF showing main flows (browsing, adding to cart, checking out) for best GitHub readability.
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/username/BagShop.git
