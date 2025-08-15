@@ -18,6 +18,7 @@ BagShop is an online shopping application for bags and related products, offerin
 ## 🛠 Technologies
 
 - **Kotlin 2.2.0** with **Jetpack Compose**
+- **Kotlin Coroutines (Core & Android) 1.10.2** for asynchronous programming
 - **Android Gradle Plugin 8.9.2**
 - **MVVM Architecture** (ViewModel, Repository)
 - **Room** for local database
@@ -39,6 +40,7 @@ BagShop is an online shopping application for bags and related products, offerin
 - **ApiService:** Retrofit-based network layer
 - **Room:** Local caching and persistent storage
 - **Cokoin:** Dependency injection
+- **Coroutines:** Asynchronous operations (network calls, database operations)
 
 ---
 
@@ -56,11 +58,3 @@ BagShop is an online shopping application for bags and related products, offerin
 ![App Demo](assets/images/demo.gif)  
 
 > Tip: Use a short 5–10 second GIF showing main flows (browsing, adding to cart, checking out) for best GitHub readability.
-
----
-
-## 🚀 Getting Started
-
-1. Clone the repository:  
-```bash
-git clone https://github.com/username/BagShop.git
