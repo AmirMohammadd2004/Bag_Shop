@@ -1,6 +1,7 @@
 # BagShop Android App 👜
 
-![Kotlin](https://img.shields.io/badge/Kotlin-1.8.0-orange?style=flat-square)
+![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-orange?style=flat-square)
+![AGP](https://img.shields.io/badge/AGP-8.9.2-blue?style=flat-square)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/username/BagShop?style=flat-square)
 
@@ -19,50 +20,31 @@ BagShop یک اپلیکیشن فروشگاه آنلاین برای خرید کی
 
 ---
 
-## 🛠 تکنولوژی‌ها و ابزارها
+## 🛠 تکنولوژی‌ها و نسخه‌ها
 
-- **زبان برنامه‌نویسی:** Kotlin  
-- **معماری:** MVVM (Model-View-ViewModel)  
-- **شبکه:** Retrofit + OkHttp + Gson  
-- **دیتابیس محلی:** Room  
-- **Dependency Injection:** Koin  
-- **ذخیره‌سازی ساده:** SharedPreferences  
-- **Coroutine:** عملیات غیرهمزمان و شبکه‌ای  
-- **UI:** Jetpack Compose / XML
+| کتابخانه / ابزار | نسخه |
+|-----------------|------|
+| Kotlin | 2.2.0 |
+| Android Gradle Plugin | 8.9.2 |
+| Core KTX | 1.16.0 |
+| Lifecycle Runtime KTX | 2.9.2 |
+| Activity Compose | 1.10.1 |
+| Compose BOM | 2025.07.00 |
+| Navigation Compose | 2.4.2 |
+| Coil Compose | 2.6.0 |
+| Coroutines Core & Android | 1.10.2 |
+| Retrofit & Gson Converter | 2.11.0 |
+| Room Runtime & Compiler | 2.7.2 |
+| Parse SDK | 4.3.0 |
+| Cokoin | 1.0.0 |
+| Accompanist System UI Controller | 0.34.0 |
+| Lottie Compose | 4.0.0 |
+| JUnit | 4.13.2 |
+| Espresso | 3.6.1 |
 
 ---
 
-## 🏗️ ساختار پروژه
-com.amir.bagshop
-│
-├─ model
-│ ├─ data // دیتا مدل‌ها (Product, UserCartInfo, SubmitOrder, ...)
-│ ├─ net // ApiService و Retrofit setup
-│ └─ repository // Repositories (Product, User, Cart, Comments)
-│
-├─ ui
-│ └─ features
-│ ├─ Main
-│ ├─ Sign_In
-│ ├─ Sign_Up
-│ ├─ Cart
-│ ├─ Product
-│ ├─ Category
-│ └─ Profile
-│
-└─ di // Koin Modules
+## 🏗️ معماری پروژه
 
-🌐 تنظیمات سرور
-
-BASE_URL در ApiService باید به آدرس سرور REST API اشاره کند.
-
-Endpoint ها:
-
-/signUp, /signIn → کاربران
-
-/getProducts, /getSliderPics → محصولات و تبلیغات
-
-/addToCart, /removeFromCart, /getUserCart → سبد خرید
-
-/submitOrder, /checkout → پرداخت و سفارش
+پروژه بر اساس **MVVM** و **Clean Architecture سبک اندروید** پیاده‌سازی شده است:
 
