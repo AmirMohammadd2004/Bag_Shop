@@ -25,7 +25,7 @@ BagShop is an online shopping application for bags and related products, offerin
 - **Retrofit & Gson Converter** for networking
 - **Parse SDK** for backend integration
 - **Coil** for image loading
-- **Lottie Compose** for animations
+- **Lottie Compose** for Animations
 - **Cokoin** for dependency injection
 - **Accompanist System UI Controller**
 - **JUnit & Espresso** for testing
