@@ -45,13 +45,15 @@ BagShop is an online shopping application for bags and related products, offerin
 ---
 
 ## 📸 Screenshots
-![Home Screen](https://github.com/user-attachments/assets/64e1d1ce-6e85-459c-91cc-9f5434ddb988)
 
-![Product Screen](https://github.com/user-attachments/assets/ec0f5c71-fa41-4803-bc4f-1fa1926a0a7d)
+<img src="https://github.com/user-attachments/assets/64e1d1ce-6e85-459c-91cc-9f5434ddb988" width="300"/>
 
-![Cart Screen](https://github.com/user-attachments/assets/6a2a285b-25e5-44e0-948c-2b6b2fd3a2db)
+<img src="https://github.com/user-attachments/assets/ec0f5c71-fa41-4803-bc4f-1fa1926a0a7d" width="300"/>
 
-![Profile Screen]![photo_2025-08-15_23-22-59](https://github.com/user-attachments/assets/c3924b83-5192-4c50-81b5-727ffef042d6)
+<img src="https://github.com/user-attachments/assets/6a2a285b-25e5-44e0-948c-2b6b2fd3a2db" width="300"/>
+
+<img src="https://github.com/user-attachments/assets/c3924b83-5192-4c50-81b5-727ffef042d6" width="300"/>
+
 
 
 ## 🎬 Demo
